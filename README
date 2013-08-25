@@ -19,7 +19,7 @@ API地址1：http://sendfetion.sinaapp.com/feixin.php
 
 API地址2：http://yeso.me/fetion/feixin.php    
 
-例如：http://yeso.me/fetion/feixin.php?user=13800138000&passwd=123456&to=13800138000&msg=test&repeat=3      
+例如：http://sendfetion.sinaapp.com/feixin.php?user=13800138000&passwd=123456&to=13800138000&msg=test&repeat=3      
 
 移动飞信用户可以调用接口发送短信到自己手机，飞信账号和收件人都填自己的同一号码就行了。   
 2.有一点需要注意的是，我发现在本地运行上面的PHP接口程序或者自己写的C接口，在发送HTTP请求的时候多数时候都会遇到302 found重定向的问题，虽然C源码中有针对这问题现象处理了一下，但效率不高。后来我怀疑是网络问题，所以用手机做热点，电脑连手机上网测试了一下，发现没出现302 found重定向现象了。。。难道是广州城中村宽带坑了？不懂。。。     
